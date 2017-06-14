@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".btn1").click(function(){
+$("a").attr("href", "http://www.google.com/");
+    });
+    $(".btn2").click(function(){
+$("a").text('Google');
+    });
+	    $(".btn3").click(function(){
+$("a").attr("href", "www.acadgild.com");
+    });
+    $(".btn4").click(function(){
+$("a").text('jQuery Tutorial');
+    });
+});
+
+</script>
+</head>
+<body>
+<div id="#clickHere">
+<a href="www.acadgild.com" id="acadgild">jQuery Tutorial</a>
+</div>
+<br><br><button class="btn1 btn2">Change</button>
+<t><button class="btn3 btn4">Revert Change</button>
+
+
+</t>
+
+
+</body>
+</html>
